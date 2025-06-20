@@ -1,11 +1,16 @@
-
 import { Header} from './assets/components/Header';
+import { CardsInfo } from './assets/components/CardsInfo';
 
 function App() {
 
   return (
     <>
-      <Header />
+      <div className='min-h-screen dark:bg-slate-900'>
+        <Header />
+        <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+          <CardsInfo />
+        </main>
+      </div>
     </>
   )
 }
