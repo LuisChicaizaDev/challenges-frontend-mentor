@@ -1,6 +1,8 @@
+import { ThemeToggle } from './ThemeToggle';
+
 export const Header = () => {
     return (
-        <header className="bg-white shadow-sm">
+        <header className="bg-white shadow-sm dark:bg-slate-700">
             <div className="max-w-7xl mx-auto flex flex-col gap-6 sm:flex-row justify-between py-6 px-4 sm:px-6 lg:px-8">
                 <div>
                     <h1 className="text-3xl font-title font-bold text-gray-900">Desafíos Frontend Mentor</h1>
@@ -11,6 +13,7 @@ export const Header = () => {
 
                 <div className="flex items-center gap-4">
                     <div className="flex items-center gap-4">
+                        <ThemeToggle />
                         <div className="text-center">
                             <div className="text-2xl font-bold text-sky-700">6</div>
                             <div className="text-sm text-gray-500">Proyectos</div>

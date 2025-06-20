@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *)); /*Anulamos la variante para controlarlo desde un selector*/
 
 @theme {
   /* Tipografías */
