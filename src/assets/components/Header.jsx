@@ -2,28 +2,29 @@ import { ThemeToggle } from './ThemeToggle';
 
 export const Header = () => {
     return (
-        <header className="bg-white shadow-sm dark:bg-slate-700">
+        <header className="bg-white shadow-sm border-b border-gray-200 dark:bg-slate-900 dark:border-slate-600">
             <div className="max-w-7xl mx-auto flex flex-col gap-6 sm:flex-row justify-between py-6 px-4 sm:px-6 lg:px-8">
                 <div>
-                    <h1 className="text-3xl font-title font-bold text-gray-900">Desafíos Frontend Mentor</h1>
-                    <p className="text-gray-600 mt-2 md:w-xl">
+                    <h1 className="text-3xl font-title font-bold text-gray-900 dark:text-white">
+                        Desafíos Frontend Mentor
+                    </h1>
+                    <p className="text-gray-600 mt-2 dark:text-gray-400">
                         Recopilación de los retos que voy completando para mejorar mis habilidades en frontend.
                     </p>
                 </div>
 
-                <div className="flex items-center gap-4">
-                    <div className="flex items-center gap-4">
-                        <ThemeToggle />
-                        <div className="text-center">
-                            <div className="text-2xl font-bold text-sky-700">6</div>
-                            <div className="text-sm text-gray-500">Proyectos</div>
-                        </div>
-                        <div className="text-center">
-                            <div className="text-2xl font-bold text-emerald-600">15</div>
-                            <div className="text-sm text-gray-500">Tecnologías</div>
-                        </div>
+                <div className="flex items-center justify-center gap-4">
+                    <ThemeToggle />
+                    <div className="text-center">
+                        <div className="text-2xl font-bold text-sky-700 dark:text-sky-600">6</div>
+                        <div className="text-sm text-gray-500 dark:text-gray-400">Proyectos</div>
+                    </div>
+                    <div className="text-center">
+                        <div className="text-2xl font-bold text-emerald-600 dark:text-emerald-500">15</div>
+                        <div className="text-sm text-gray-500 dark:text-gray-400">Tecnologías</div>
                     </div>
                 </div>
+
             </div>
         </header>
     );
