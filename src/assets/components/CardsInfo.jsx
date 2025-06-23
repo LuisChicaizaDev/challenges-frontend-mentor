@@ -1,4 +1,3 @@
-import { LaptopMinimalCheck } from 'lucide-react';
 import { CodeXml } from 'lucide-react';
 import { ExternalLink } from 'lucide-react';
 
