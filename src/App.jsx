@@ -1,6 +1,7 @@
 import { Header} from './assets/components/Header';
 import { CardsInfo } from './assets/components/CardsInfo';
 import { CardsContainer} from './assets/components/CardsContainer';
+import { Cta } from './assets/components/Cta';
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
           <CardsInfo />
           {/* Projects Grid */}
           <CardsContainer />
+          {/* CTA */}
+          <Cta />
         </main>
       </div>
     </>
