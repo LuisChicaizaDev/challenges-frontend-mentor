@@ -3,7 +3,7 @@ import { Github } from 'lucide-react';
 
 export const Cta = () => {
     return (
-        <div className="my-20 text-center">
+        <section className="my-20 text-center">
             <div className="max-w-2xl mx-auto flex flex-col gap-4 justify-between p-6 bg-white border border-gray-300 rounded-xl dark:bg-slate-800 dark:border-slate-600">
                 <h3 className="text-2xl font-semibold leading-none tracking-tight dark:text-white">
                     ¿Quieres ver más?
@@ -32,6 +32,6 @@ export const Cta = () => {
                     </a>
                 </div>
             </div>
-        </div>
+        </section>
     );
 }
