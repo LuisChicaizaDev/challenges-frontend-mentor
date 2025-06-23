@@ -2,6 +2,7 @@ import { Header} from './assets/components/Header';
 import { CardsInfo } from './assets/components/CardsInfo';
 import { CardsContainer} from './assets/components/CardsContainer';
 import { Cta } from './assets/components/Cta';
+import { Footer } from './assets/components/Footer';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
           {/* CTA */}
           <Cta />
         </main>
+        <Footer />
       </div>
     </>
   )
