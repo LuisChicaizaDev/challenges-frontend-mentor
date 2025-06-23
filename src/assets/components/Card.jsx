@@ -1,5 +1,6 @@
 import { ExternalLink } from 'lucide-react';
 import { Github } from 'lucide-react';
+import { Badge } from './Badge';
 
 export const Card = ( {title, description, image, technologies, difficulty, demo, code, completed} ) => {
     return (
@@ -13,11 +14,7 @@ export const Card = ( {title, description, image, technologies, difficulty, demo
                 />
 
                 <div className="absolute top-3 right-3">
-                  <span className="inline-flex items-center rounded-full border px-2.5 py-0.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent 
-                  bg-green-100 text-green-800 hover:bg-green-200
-                  dark:bg-green-900 dark:text-green-200 dark:hover:bg-green-800">
-                    { difficulty }
-                </span>
+                    <Badge difficulty={difficulty} />
                 </div>
             </div>
 
