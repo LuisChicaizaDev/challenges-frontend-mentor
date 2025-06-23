@@ -9,7 +9,9 @@ export const Header = () => {
                         Desafíos Frontend Mentor
                     </h1>
                     <p className="text-gray-600 mt-2 dark:text-gray-400">
-                        Recopilación de los retos que voy completando para mejorar mis habilidades en frontend.
+                        Recopilación de retos realizados en <a href="https://www.frontendmentor.io/profile/LuisChicaizaDev" target="_blank" rel="noopener noreferrer" className="text-slate-500 underline underline-offset-2 dark:text-slate-400">
+                        Frontend Mentor
+                        </a> para mejorar mis habilidades como desarrollador frontend.
                     </p>
                 </div>
 
