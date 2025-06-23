@@ -16,12 +16,8 @@ export const Header = () => {
                 <div className="flex items-center justify-center gap-4">
                     <ThemeToggle />
                     <div className="text-center">
-                        <div className="text-2xl font-bold text-sky-700 dark:text-sky-600">6</div>
+                        <div className="text-2xl font-bold text-sky-700 dark:text-sky-600">2</div>
                         <div className="text-sm text-gray-500 dark:text-gray-400">Proyectos</div>
-                    </div>
-                    <div className="text-center">
-                        <div className="text-2xl font-bold text-emerald-600 dark:text-emerald-500">15</div>
-                        <div className="text-sm text-gray-500 dark:text-gray-400">Tecnologías</div>
                     </div>
                 </div>
 
