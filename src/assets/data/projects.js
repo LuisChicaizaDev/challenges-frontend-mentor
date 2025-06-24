@@ -1,4 +1,3 @@
-import imageDefault from '../images/default.svg';
 import fourCardSection from '../images/four-card-section.jpg';
 import articlePreviewComponent from '../images/article-preview-component.jpg';
 
@@ -24,16 +23,5 @@ export const projects = [
         demo: '#demo',
         code: '#code',
         completed: 'Junio 2025'
-    },
-    {
-        id: 3,
-        title: 'Proyecto Nuevooo',
-        description: 'Prueba json proyectos. Pasar props al componente Card para renderizarlo',
-        image: imageDefault,
-        technologies: ['HTML', 'CSS', 'JavaScript'],
-        difficulty: 'Intermedio',
-        demo: '#demo',
-        code: '#code',
-        completed: 'Jluio 2025'
     }
 ];
