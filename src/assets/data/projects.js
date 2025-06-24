@@ -10,7 +10,7 @@ export const projects = [
         technologies: ['HTML', 'React', 'Context API', 'Tailwind CSS'],
         difficulty: 'Junior',
         demo: '#demo',
-        code: '#code',
+        code: 'https://github.com/LuisChicaizaDev/challenges-frontend-mentor/tree/main/challenges/article-preview-component',
         completed: 'Junio 2025'
     },
     {
@@ -21,7 +21,7 @@ export const projects = [
         technologies: ['HTML', 'React', 'Tailwind CSS'],
         difficulty: 'Junior',
         demo: '#demo',
-        code: '#code',
+        code: 'https://github.com/LuisChicaizaDev/challenges-frontend-mentor/tree/main/challenges/four-card-feature',
         completed: 'Junio 2025'
     }
 ];
