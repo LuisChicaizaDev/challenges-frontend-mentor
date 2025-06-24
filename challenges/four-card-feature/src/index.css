@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url("./assets/fonts/Poppins/Poppins-ExtraLight.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./assets/fonts/Poppins/Poppins-Regular.ttf") format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./assets/fonts/Poppins/Poppins-SemiBold.ttf") format('truetype');
+}
+
+/* Personalizar variables y crear variables*/
+@theme {
+    --color-red: hsl(0, 78%, 62%);
+    --color-cyan: hsl(180, 62%, 55%);
+    --color-orange: hsl(34, 97%, 64%);
+    --color-blue: hsl(212, 86%, 64%);
+    --color-grey-500: hsl(234, 12%, 34%);
+    --color-grey-400: hsl(212, 6%, 44%);
+    --color-white: hsl(0, 0%, 100%);
+
+    --font-Popins: 'Poppins', sans-serif;
+}
