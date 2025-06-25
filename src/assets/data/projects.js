@@ -9,7 +9,7 @@ export const projects = [
         image: articlePreviewComponent,
         technologies: ['HTML', 'React', 'Context API', 'Tailwind CSS'],
         difficulty: 'Junior',
-        demo: '#demo',
+        demo: 'https://article-preview-component-luis.vercel.app',
         code: 'https://github.com/LuisChicaizaDev/challenges-frontend-mentor/tree/main/challenges/article-preview-component',
         completed: 'Junio 2025'
     },
@@ -20,7 +20,7 @@ export const projects = [
         image: fourCardSection,
         technologies: ['HTML', 'React', 'Tailwind CSS'],
         difficulty: 'Junior',
-        demo: '#demo',
+        demo: 'https://challenges-frontend-mentor-1if1.vercel.app',
         code: 'https://github.com/LuisChicaizaDev/challenges-frontend-mentor/tree/main/challenges/four-card-feature',
         completed: 'Junio 2025'
     }
