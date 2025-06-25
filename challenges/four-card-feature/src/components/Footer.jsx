@@ -2,7 +2,7 @@ export const Footer = () => {
     return (
         <footer className="text-center">
             <a href="https://frontend-mentor-luis.vercel.app/" 
-                className="inline-block my-8 border border-gray-300 py-2 px-4 rounded-md text-center text-sm text-gray-900 hover:bg-gray-100 hover:text-blue-500 transition">
+                className="inline-block my-8 border bg-gray-300 border-gray-300 py-2 px-4 rounded-md text-center text-sm text-gray-700 hover:bg-gray-100 hover:text-blue-500 transition">
                 Ver todos los desafíos
             </a>
             <p className="text-center">
