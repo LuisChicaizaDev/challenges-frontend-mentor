@@ -1,5 +1,5 @@
 import { ExternalLink } from 'lucide-react';
-import { Github } from 'lucide-react';
+import { SiGithub } from "react-icons/si";
 
 export const Cta = () => {
     return (
@@ -19,7 +19,7 @@ export const Cta = () => {
                         dark:bg-black dark:text-white dark:hover:bg-black/50 dark:border-black" 
                         target="_blank" rel="noopener noreferrer"
                     >
-                        <Github className='size-4' />
+                        <SiGithub className='size-4' />
                         Ver Perfil de GitHub  
                     </a>
                     <a href="https://luischicaizadev.github.io"
