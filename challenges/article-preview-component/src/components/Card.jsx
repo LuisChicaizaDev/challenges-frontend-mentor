@@ -11,7 +11,7 @@ export const Card = () => {
     const {isOpen} = useContext(ShowContext);
 
     return (
-        <div className='w-[340px] shadow-lg rounded-xl overflow-hidden relative lg:w-[850px] lg:flex lg:overflow-visible'>
+        <div className='w-[340px] justify-self-center shadow-lg rounded-xl overflow-hidden relative lg:w-[850px] lg:flex lg:overflow-visible'>
             <div className='h-[210px] overflow-hidden lg:h-full lg:rounded-l-xl'>
                 <img src={cardImage} alt='Mesa con un jarrón encima'
                 className='w-full object-cover -mt-4 lg:mt-0 lg:h-[300px] lg:w-[950px] lg:object-left'
