@@ -25,8 +25,8 @@ export const ThemeToggle = () => {
     }
 
     return (
-        <button className='p-1.5 border border-gray-400 rounded-lg cursor-pointer
-        hover:bg-gray-200 transition duration-500 dark:bg-gray-900 dark:hover:bg-gray-700' 
+        <button className='p-1.5 border border-gray-400 rounded-lg cursor-pointer bg-gray-300/80
+        hover:bg-gray-100 transition duration-500 dark:bg-gray-700 dark:hover:bg-gray-900' 
             aria-label='Alternar tema'
             onClick={toggleTheme}
         >
