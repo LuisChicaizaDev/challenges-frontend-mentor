@@ -1,12 +1,14 @@
 export const Footer = () => {
     return (
-        <div className="text-center text-sm">
-            <p>
-                Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer" className="text-very-dark-grayish-blue underline underline-offset-2">Frontend Mentor</a>. 
+         <footer className="text-center">
+            <a href="https://frontend-mentor-luis.vercel.app/" 
+                className="inline-block my-8 border border-gray-300 py-2 px-4 rounded-md text-center text-sm text-gray-900 hover:bg-gray-100 hover:text-blue-500 transition">
+                Ver todos los desafíos
+            </a>
+            <p className="text-center">
+            Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noopener noreferrer" className="text-very-dark-grayish-blue underline underline-offset-2">Frontend Mentor</a>. 
+            Coded by <a href="https://github.com/LuisChicaizaDev" target="_blank" className="text-very-dark-grayish-blue underline underline-offset-2">Luis Chicaiza</a>.
             </p>
-            <p>
-                Coded by <a href="https://github.com/LuisChicaizaDev" className="text-very-dark-grayish-blue underline underline-offset-2">Luis Chicaiza</a>.
-            </p>
-        </div>
+        </footer>
     );
 }
