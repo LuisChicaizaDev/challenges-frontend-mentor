@@ -17,8 +17,8 @@ export const Header = () => {
                 </div>
 
                 <div className="flex items-center justify-center gap-4 flex-wrap">
-                    <a href="https://github.com/LuisChicaizaDev/challenges-frontend-mentor" tarjet="_blank" rel="noopener noreferrer"
-                        className='min-w-38 flex gap-2 items-center justify-center p-1.5 border border-gray-400 rounded-lg cursor-pointer
+                    <a href="https://github.com/LuisChicaizaDev/challenges-frontend-mentor"
+                        className='min-w-38 text-sm flex gap-2 items-center justify-center p-1.5 border border-gray-400 rounded-lg cursor-pointer
         hover:bg-gray-200 transition duration-500 dark:bg-gray-900 dark:hover:bg-gray-700 dark:text-white'>
                         <SiGithub className='size-5' />
                         Código fuente
