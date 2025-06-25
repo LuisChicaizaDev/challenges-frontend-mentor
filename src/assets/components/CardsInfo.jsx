@@ -18,13 +18,13 @@ export const CardsInfo = () => {
             <div className='flex flex-col gap-4 justify-between p-6 bg-white border border-gray-300 rounded-xl dark:bg-slate-800 dark:border-slate-600'>
                 <div className='flex justify-between'>
                     <h3 className='text-xl dark:text-white'>Último Proyecto</h3>
-                   <a href="#" target='_blank'>
+                   <a href="https://article-preview-component-luis.vercel.app" target='_blank' rel="noopener noreferrer">
                         <ExternalLink className='text-gray-500 size-6 hover:text-gray-400 transition-colors dark:text-gray-400 dark:hover:dark:text-gray-300'/>
                    </a>
                 </div>
                 <div>
                     <p className='font-black text-2xl dark:text-white'>Junio 2025</p>
-                    <p className='text-sm text-gray-500 dark:text-gray-400'>Componente de vista previa del artículo</p>
+                    <p className='text-sm text-gray-500 dark:text-gray-400'>Article Preview Component</p>
                 </div>
             </div>
             
