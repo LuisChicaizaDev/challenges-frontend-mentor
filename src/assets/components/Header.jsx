@@ -1,4 +1,5 @@
 import { ThemeToggle } from './ThemeToggle';
+import { SiGithub } from "react-icons/si";
 
 export const Header = () => {
     return (
@@ -15,7 +16,13 @@ export const Header = () => {
                     </p>
                 </div>
 
-                <div className="flex items-center justify-center gap-4">
+                <div className="flex items-center justify-center gap-4 flex-wrap">
+                    <a href="https://github.com/LuisChicaizaDev/challenges-frontend-mentor" tarjet="_blank" rel="noopener noreferrer"
+                        className='min-w-38 flex gap-2 items-center justify-center p-1.5 border border-gray-400 rounded-lg cursor-pointer
+        hover:bg-gray-200 transition duration-500 dark:bg-gray-900 dark:hover:bg-gray-700 dark:text-white'>
+                        <SiGithub className='size-5' />
+                        Código fuente
+                    </a>
                     <ThemeToggle />
                     <div className="text-center">
                         <div className="text-2xl font-bold text-slate-600 dark:text-slate-400">2</div>
