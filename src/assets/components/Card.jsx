@@ -26,7 +26,7 @@ export const Card = ( {title, description, image, technologies, difficulty, demo
                         { title }
                     </h3>
 
-                    <p className="text-sm line-clamp-4 text-gray-600 dark:text-gray-300">
+                    <p className="text-sm text-gray-600 dark:text-gray-300">
                         { description }
                     </p>
                 </div>
