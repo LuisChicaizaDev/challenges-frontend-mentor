@@ -5,7 +5,7 @@ export const Header = () => {
     return (
         <header className="bg-white shadow-sm border-b border-gray-200 dark:bg-slate-900 dark:border-slate-600">
             <div className="max-w-7xl mx-auto flex flex-col gap-6 sm:flex-row justify-between py-6 px-4 sm:px-6 lg:px-8">
-                <div>
+                <div className="flex flex-col justify-center">
                     <h1 className="text-3xl font-title font-bold text-gray-900 dark:text-white">
                         Desafíos Frontend Mentor
                     </h1>
