@@ -41,7 +41,7 @@ Si quieres usar este repositorio como base para mostrar tus propios retos de Fro
    
 3. Elimina las carpetas dentro de 📁 `challenges/` y agrega tus propios proyectos
 
-4. Personaliza los datos del archivo `projects.js` dentro de 📁 `data/` 
+4. Personaliza los datos del archivo `projects.js` dentro de 📁 `src/assets/data/` 
 
 ## 🙌 Créditos (opcional)
 Si te ha resultado útil y decides usar esta plantilla, agradecería mucho que dejaras una pequeña mención o enlace al repositorio original. ¡Gracias!
