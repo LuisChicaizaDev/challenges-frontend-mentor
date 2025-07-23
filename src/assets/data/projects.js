@@ -10,8 +10,8 @@ export const projects = [
         image: pingComingSoon,
         technologies: ['HTML', 'React', 'React Hook Form', 'Tailwind CSS'],
         difficulty: 'Junior',
-        demo: '#',
-        code: '#',
+        demo: 'https://challenges-frontend-mentor-5o1n.vercel.app/',
+        code: 'https://github.com/LuisChicaizaDev/challenges-frontend-mentor/tree/main/challenges/ping-coming-soon-page',
         completed: 'Julio 2025'
     },
     {
