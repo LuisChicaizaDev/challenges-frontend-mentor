@@ -25,7 +25,7 @@ export const Header = () => {
                     </a>
                     <ThemeToggle />
                     <div className="text-center">
-                        <div className="text-2xl font-bold text-slate-600 dark:text-slate-400">2</div>
+                        <div className="text-2xl font-bold text-slate-600 dark:text-slate-400">3</div>
                         <div className="text-sm text-gray-500 dark:text-gray-400">Proyectos</div>
                     </div>
                 </div>
