@@ -11,7 +11,7 @@ export const CardsInfo = () => {
                     <CodeXml className='text-gray-500 size-6 dark:text-gray-400'/>                
                 </div>
                 <div>
-                    <p className='font-black text-2xl dark:text-white'>3</p>
+                    <p className='font-black text-2xl dark:text-white'>4</p>
                     <p className='text-sm text-gray-500 dark:text-gray-400'>Practicando distintos niveles de dificultad</p>
                 </div>
             </div>
@@ -19,13 +19,13 @@ export const CardsInfo = () => {
             <div className='flex flex-col gap-4 justify-between p-6 bg-white border border-gray-300 rounded-xl dark:bg-slate-800 dark:border-slate-600'>
                 <div className='flex justify-between'>
                     <h3 className='text-xl dark:text-white'>Último Proyecto</h3>
-                   <a href="https://challenges-frontend-mentor-5o1n.vercel.app/" target='_blank' rel="noopener noreferrer">
+                   <a href="#" target='_blank' rel="noopener noreferrer">
                         <ExternalLink className='text-gray-500 size-6 hover:text-gray-400 transition-colors dark:text-gray-400 dark:hover:dark:text-gray-300'/>
                    </a>
                 </div>
                 <div>
-                    <p className='font-black text-2xl dark:text-white'>Julio 2025</p>
-                    <p className='text-sm text-gray-500 dark:text-gray-400'>Ping Coming Soon Page</p>
+                    <p className='font-black text-2xl dark:text-white'>Agosto 2025</p>
+                    <p className='text-sm text-gray-500 dark:text-gray-400'>Browser extension manager UI</p>
                 </div>
             </div>
             
