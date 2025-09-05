@@ -3,7 +3,34 @@ import { Toggle } from 'rsuite';
 import 'rsuite/Toggle/styles/index.css';
 import { Button } from './button';
 
+import LogoDevLens from '../../assets/images/logo-devlens.svg';
+import LogoStyleSpy from '../../assets/images/logo-style-spy.svg';
+import LogoSpeedBoost from '../../assets/images/logo-speed-boost.svg';
+import LogoJsonWizard from '../../assets/images/logo-json-wizard.svg';
+import LogoTabMaster from '../../assets/images/logo-tab-master-pro.svg';
+import LogoViewportBuddy from '../../assets/images/logo-viewport-buddy.svg';
+import LogoMarkupNotes from '../../assets/images/logo-markup-notes.svg';
+import LogoGridGuides from '../../assets/images/logo-grid-guides.svg';
+import LogoPalettePicker from '../../assets/images/logo-palette-picker.svg';
+import LogoLinkChecker from '../../assets/images/logo-link-checker.svg';
+import LogoSnapshot from '../../assets/images/logo-dom-snapshot.svg';
+import LogoConsolePlus from '../../assets/images/logo-console-plus.svg';
+
 export const Card = ( { logo, name, description, isActive, extensions , setExtensions } ) => {
+    const logoMap = {
+        'logo-devlens.svg': LogoDevLens,
+        'logo-style-spy.svg': LogoStyleSpy,
+        'logo-speed-boost.svg': LogoSpeedBoost,
+        'logo-json-wizard.svg': LogoJsonWizard,
+        'logo-tab-master-pro.svg': LogoTabMaster,
+        'logo-viewport-buddy.svg': LogoViewportBuddy,
+        'logo-markup-notes.svg': LogoMarkupNotes,
+        'logo-grid-guides.svg': LogoGridGuides,
+        'logo-palette-picker.svg': LogoPalettePicker,
+        'logo-link-checker.svg': LogoLinkChecker,
+        'logo-dom-snapshot.svg': LogoSnapshot,
+        'logo-console-plus.svg': LogoConsolePlus
+    };
 
     // Función para alternar la propiedad isActive
     const onToggle = () => {
@@ -41,7 +68,7 @@ export const Card = ( { logo, name, description, isActive, extensions , setExten
             flex flex-col justify-between min-h-54
             dark:bg-Neutral-800 dark:text-Neutral-0 dark:border-Neutral-600">
             <div className="flex gap-4 items-start">
-                <img src={logo} alt={`Logo de la extensión ${name}`} />
+                <img src={logoMap[logo]} alt={`Logo de la extensión ${name}`} />
                 <div className="flex flex-col gap-1">
                     <h3 className="text-Neutral-900 font-bold text-xl dark:text-Neutral-0">
                         {name}
