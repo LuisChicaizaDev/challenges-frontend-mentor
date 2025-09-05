@@ -11,8 +11,8 @@ export const projects = [
         image: extensionManager,
         technologies: ['HTML', 'React', 'Tailwind CSS', 'JSON'],
         difficulty: 'Junior',
-        demo: '',
-        code: '',
+        demo: 'https://challenges-frontend-mentor-391b.vercel.app/',
+        code: 'https://github.com/LuisChicaizaDev/challenges-frontend-mentor/tree/main/challenges/extension-manager',
         completed: 'Agosto 2025'
     },
     {
