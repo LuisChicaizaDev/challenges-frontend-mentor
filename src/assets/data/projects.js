@@ -12,8 +12,8 @@ export const projects = [
         image: productListCart,
         technologies: ['React', 'Tailwind CSS', 'Zustand', 'JSON'],
         difficulty: 'Junior',
-        demo: '#',
-        code: '#',
+        demo: 'https://challenges-frontend-mentor-oyft.vercel.app',
+        code: 'https://github.com/LuisChicaizaDev/challenges-frontend-mentor/tree/main/challenges/product-list-cart',
         completed: 'Septiembre 2025'
     },
     {
